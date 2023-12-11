@@ -70,16 +70,14 @@ export default function AddTask() {
             
     
             console.log('API response:', response.data);
-            // Optionally, you can handle success or perform additional actions after a successful API call.
+            
         } catch (error) {
             console.error('Error sending data to API:', error);
-            // Optionally, you can handle errors or display a message to the user.
+           
         }
     };
 
-        // add to the server here
-    //     console.log('JSON data to send:', jsonData);
-    // };
+        
 
 
     return (
