@@ -51,13 +51,14 @@ input[type=text],[type=date],[type=time],label,select{
 
 }
 .button{
-  display: inline-block;
+  display: flex;
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-left: 60px;
+  margin-left: 0px;
+
 }
 #img{
   display: flex;
@@ -71,4 +72,28 @@ input[type=text],[type=date],[type=time],label,select{
   padding: 2px 2px;
   margin-top: 15px;
   width: fit-content;
+}
+
+#left{
+  width: 48%;
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 15px;
+  
+}
+#right{
+  width: 48%;
+  display: inline-flex;
+  padding: 15px;
+  margin-top: 15px;
+
+
+}
+#table{
+  margin-left: 20px;
+  width: 150%;
+  height: 100%;
+}
+#btable{
+  background-color: rgb(143, 169, 206);
 }

@@ -15,32 +15,21 @@ import Home from './components/Home';
 import Taskdata from './components/Taskdata';
 
 
+import Check1 from './components/Check1';
+import Teams from './components/Teams';
+import Router from './components/Router';
+import { BrowserRouter } from 'react-router-dom';
+
+
 
 function App() {
   
   
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React with Gudd and Daniil
-    //     </a>
-      //</header>
-    //</div>
   <div>
-  
+ 
    <Header/>
-  
-    <Home/>
+   <Router/>
 
  
    </div>
